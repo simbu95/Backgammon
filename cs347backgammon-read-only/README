@@ -1,0 +1,30 @@
+User instructions:
+
+Server:
+Install python 2.6.4 or use a campus machine.
+cd server
+python main.py -b
+This starts a redirect server on port 19000 and a game server on port 19001.
+
+Sample Client:
+cd sampleClient
+cd c
+make
+./client localhost
+This creates a game on the server.  It should tell you the game number.
+Open a new terminal window.
+./client localhost 0
+This joins game 0 with another client.
+cd ..
+cd python
+./run localhost
+This starts the python client
+cd ..
+cd java
+./run localhost 1
+This joins game 1 with the java client
+
+Code generator:
+cd codegen
+python main.py
+This creates the base client in codegen/output

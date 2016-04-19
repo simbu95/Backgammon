@@ -1,0 +1,24 @@
+;Passwords generated on 2/16/2009
+
+;We can use this website for our random passwords.
+;http://www.random.org/strings/?num=10&len=10&digits=on&loweralpha=on&unique=on&format=html&rnd=new
+
+;Specifying no screenName implies that the screenName is the same as
+;  the login name.
+
+
+[Shell AI]
+password = password
+screenName = I didnt set my login
+
+[slave]
+password = slave-password
+
+[mst00001]
+password = SwezuPe2r
+screenName = Unassigned
+
+[BackgammonGUI]
+password = BackgammonGUI
+screenName = BackgammonGUI
+
